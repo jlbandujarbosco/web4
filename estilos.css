@@ -1,0 +1,81 @@
+* { box-sizing: border-box;margin: 0; }
+body { background-color: antiquewhite; }
+header { height: 200px;
+	background-image: url(images/fitness.jpg);
+	background-position: center; 
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+header h1 { color: orange; 
+	font-style: italic;
+	text-shadow: 3px 3px 3px black; }
+header h2 { color:white; text-shadow: 3px 3px 3px black;}
+header div { border: 2px solid red; }
+nav a { text-decoration: none; 
+		color: white;
+		text-shadow: 2px 2px 2px black;}
+nav { background-color: burlywood;
+	padding: 10px;
+	display: flex; 
+	justify-content: space-around;
+	}
+nav a:hover { font-weight: bold; }
+#texto,#imagen { border: 2px solid red; width: 40%; }
+section#quienes {display: flex;justify-content: space-around;}
+section { padding: 20px; }
+#imagen img { width: 90%; }
+#imagen { display: flex;
+	align-items: center;
+	justify-content: center; }
+.titulo { color:brown;font-style: italic;
+	font-family: arial,sans-serif; 
+	text-shadow: 3px 3px 3px black;
+	font-size: 1.5em;
+	text-align: center;
+	}
+
+#contenedor-clientes {border:  4px solid green;
+					padding: 10px;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-around;}
+article.cliente { width:29%;
+				border:2px solid blue;
+				text-align: center;
+				margin-bottom: 10px;}
+
+article.cliente img { width: 33%; border-radius: 50%;}
+section#clientes { border: 5px dotted red;
+ background-color: lightblue;}
+section#donde-estamos { border:2px solid red }
+#contenedor-donde-estamos { border: 4px solid 
+	green; display:flex }
+#direccion { border:3px solid blue; 
+			width: 50%;
+			display:flex;
+			justify-content: center;
+			align-items: center; }
+#direccion div { border:9px dotted pink }
+#mapa { border: 3px solid orange;
+		width: 50%;display: flex;
+		justify-content: center;
+		align-items: center; }
+
+#mapa iframe { width: 90%; }
+
+footer { background-color: gray;
+	color:white;
+	display: flex;
+	padding:30px;
+	flex-wrap: wrap; }
+footer div { width: 33%;padding: 10px; 
+		text-align: center;
+		text-decoration: none;
+}
+footer a { text-decoration: none; color:white; }
+#redes-sociales a { font-size: 3em; }
+
+#copyright { width: 100%;border-top: 2px solid white }
+section { height: 100vh; }
